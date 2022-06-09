@@ -1,0 +1,117 @@
+    body{
+        font-family: 'Nanum Gothic Coding', monospace;
+        
+    }
+
+    @media screen and (max-width:576px){
+        #dp{
+        margin-left: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    }
+
+    @media screen and (min-width: 576px){
+        #dp{
+        margin-left: 40%;
+    }
+    }
+
+    @media screen and (max-width: 576px){
+        .nameStrip{
+            
+            padding: 0;
+        }
+        
+    }
+
+    #Email{
+        
+        font-size: 1rem;
+        
+    }
+
+    .headings{
+        color: rgb(79, 185, 255);
+        
+    }
+
+
+
+    .firstCol{
+        padding-left: 10%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .secCol{
+        padding-left: 10%;
+        padding-right: 9%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    a:hover{
+        font-weight: bolder;
+        
+        color: rgb(25, 25, 25);
+        
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(25, 25, 25);
+    }
+
+    .skillsDiv{
+        
+        width: 90%;
+    }
+
+    .skillIcons{
+        
+        margin-right: 5px
+    }
+
+    .skillIcons-1stRow{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .skillIcons-2ndRow{
+        display: flex;
+        flex-direction: row;
+    }
+
+    @media (max-width: 1200px){
+        .skillIcons-2ndRow{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .skillIcons-1stRow{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .skillsDiv{
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+    }
+
+    .skillIcons{
+        font-size: 80px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    }
+
+    @media (max-width:880px){
+    body{
+        padding: 0;
+    }
+    }
